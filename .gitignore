@@ -1,0 +1,32 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+# Cordova
+/platforms
+/plugins
+
+/www
+www/
+!www/index.html
+
+node_modules/
+.idea/
+platforms/android/.gradle
+*.sublime-project
+*.sublime-workspace
+build
+*.iml
+xcuserdata
+platforms/ios/RefSix.xcodeproj/project.xcworkspace
+fastlane/report.xml
+*.ipa
+*.dSYM.zip
+.DS_STORE
+platforms/android/app/src/main/assets/www/
+platforms/browser/www/
+platforms/ios/www/
+/tmp/browserify-cache.json
+.bash_profile
+
+deploy.js
+
